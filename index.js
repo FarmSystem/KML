@@ -6,7 +6,6 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 const messageRoute = require("./routes/message");
-const authRoute = require("./routes/auth");
 
 dotenv.config();
 app.use(express.json());
@@ -17,9 +16,6 @@ mongoose
   .catch((err) => console.log(err));
 
 app.use("/cheer", messageRoute);
-
-app.use("/api/auth", authRoute);
-
 app.listen(port, () => {
   console.log("Backend is running");
 });

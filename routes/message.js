@@ -27,8 +27,6 @@ router.get("/:id", async (req, res) => {
 
 // 모든 포스트 가져오기
 router.get("/", async (req, res) => {
-  const nickName = req.query.nickName;
-  const message = req.query.message;
   try {
     messages = await Message.find();
     res.status(200).json(messages);
