@@ -9,6 +9,14 @@ const MessageSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  club: {
+    type: String,
+    required: true,
+  },
+  player: {
+    type: String,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("Messsage", MessageSchema);

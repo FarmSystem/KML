@@ -2,7 +2,7 @@ const router = require("express").Router();
 const Message = require("../models/Message");
 
 // 메시지 적기
-router.post("/", async (req, res) => {
+router.post("/message", async (req, res) => {
   try {
     const newMessage = new Message({
       nickName: req.body.nickName,
