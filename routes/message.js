@@ -2,11 +2,13 @@ const router = require("express").Router();
 const Message = require("../models/Message");
 
 // 메시지 적기
-router.post("/", async (req, res) => {
+router.post("/message", async (req, res) => {
   try {
     const newMessage = new Message({
       nickName: req.body.nickName,
       message: req.body.message,
+      club: req.body.club,
+      player: req.body.player,
     });
     const savedMessage = await newMessage.save();
     res.status(200).json(savedMessage);
@@ -15,7 +17,23 @@ router.post("/", async (req, res) => {
   }
 });
 
-// 포스트 가져오기
+// 메시지 업데이트
+router.put("/message/:id", async (req, res) => {
+  try {
+    const updateMessage = await Message.findByIdAndUpdate(
+      req.params.id,
+      {
+        $set: req.body,
+      },
+      { new: true }
+    );
+    res.status(200).json(updateMessage);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+// 메시지 가져오기
 router.get("/:id", async (req, res) => {
   try {
     const message = await Message.findById(req.res.params.id);
@@ -25,10 +43,8 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// 모든 포스트 가져오기
+// 모든 메시지 가져오기
 router.get("/", async (req, res) => {
-  const nickName = req.query.nickName;
-  const message = req.query.message;
   try {
     messages = await Message.find();
     res.status(200).json(messages);
