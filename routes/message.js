@@ -7,6 +7,8 @@ router.post("/message", async (req, res) => {
     const newMessage = new Message({
       nickName: req.body.nickName,
       message: req.body.message,
+      club: req.body.club,
+      player: req.body.player,
     });
     const savedMessage = await newMessage.save();
     res.status(200).json(savedMessage);

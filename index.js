@@ -15,7 +15,7 @@ mongoose
   .then(console.log("Connected to MongoDB"))
   .catch((err) => console.log(err));
 
-app.use("/", messageRoute);
+app.use("/cheer", messageRoute);
 app.listen(port, () => {
   console.log("Backend is running");
 });
