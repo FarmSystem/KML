@@ -4,6 +4,7 @@ import './cheer.css';
 
 export default function Cheer() {
   return (
+
     <section className="background">
       <div className="intro__dark">
       <div className="intro">
@@ -32,5 +33,6 @@ export default function Cheer() {
       </div>
       
     </section>
+
   );
 }
