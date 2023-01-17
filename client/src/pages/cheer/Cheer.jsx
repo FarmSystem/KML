@@ -4,13 +4,19 @@ import { Link } from "react-router-dom";
 export default function Cheer() {
   return (
     <div>
-      응원하기 페이지
-      <button>
-        <Link to="/message">메시지 남기기</Link>
-      </button>
-      <button>
-        <Link to="/parade">퍼dgdgdgdgdgdg레이드</Link>
-      </button>
+      <h1><center>응원하기 페이지</center></h1>
+      <div class = "container">s
+        <center>
+          <button>
+            <Link to="/message">응원메시지</Link>
+          </button>
+        <div>
+          <button>
+            <Link to="/parade">퍼레이드</Link>
+          </button>
+        </div>
+        </center>
+      </div>
     </div>
   );
 }
