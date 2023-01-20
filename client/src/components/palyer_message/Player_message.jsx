@@ -14,7 +14,7 @@ export default function Player_message() {
 
   useEffect(() => {
     const getPlayer = async () => {
-      const res = await axios.get("/parade/" + path);
+      const res = await axios.get("/cheer/message/" + path);
       setPlayer(res.data);
     };
     getPlayer();
@@ -22,8 +22,8 @@ export default function Player_message() {
 
   return (
     <div>
-      <div>{player.nickName}</div>
-      <div>{player.message}</div>
+      <div>닉네임 : {player.nickName}</div>
+      <div>메시지 : {player.message}</div>
     </div>
   );
 }
