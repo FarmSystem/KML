@@ -36,7 +36,7 @@ router.put("/message/:id", async (req, res) => {
 // 메시지 가져오기
 router.get("/message/:id", async (req, res) => {
   try {
-    const message = await Message.findById(req.res.params.id);
+    const message = await Message.findById(req.params.id);
     res.status(200).json(message);
   } catch (err) {
     res.status(500).json(err);
