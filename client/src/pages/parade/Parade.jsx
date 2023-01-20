@@ -11,7 +11,7 @@ export default function Parade() {
 
   useEffect(() => {
     const fetchPlayers = async () => {
-      const res = await axios.get("/parade" + search);
+      const res = await axios.get("/cheer/message" + search);
       setPlayers(res.data);
     };
     fetchPlayers();

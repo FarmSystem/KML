@@ -34,7 +34,7 @@ router.put("/message/:id", async (req, res) => {
 });
 
 // 메시지 가져오기
-router.get("/:id", async (req, res) => {
+router.get("/message/:id", async (req, res) => {
   try {
     const message = await Message.findById(req.res.params.id);
     res.status(200).json(message);
@@ -44,7 +44,7 @@ router.get("/:id", async (req, res) => {
 });
 
 // 모든 메시지 가져오기
-router.get("/", async (req, res) => {
+router.get("/message", async (req, res) => {
   try {
     messages = await Message.find();
     res.status(200).json(messages);

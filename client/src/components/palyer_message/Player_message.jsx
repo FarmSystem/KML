@@ -14,7 +14,7 @@ export default function Player_message() {
 
   useEffect(() => {
     const getPlayer = async () => {
-      const res = await axios.get("/parade/" + path);
+      const res = await axios.get("/cheer/message" + path);
       setPlayer(res.data);
     };
     getPlayer();
