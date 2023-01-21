@@ -1,10 +1,19 @@
 .background {
+<<<<<<< HEAD
 height: 100vh;
 width: 100vw;
 background-image: url(https://cdn.pixabay.com/photo/2014/09/09/12/46/basketball-440057_1280.jpg);
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
+=======
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fe161eb1-bc15-4472-9344-ee3045dfabe0/3472489310076622412_20221028180623810_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230115T121400Z&X-Amz-Expires=86400&X-Amz-Signature=51f3e34c2a222023992dba90d60493e878bd5274d4f7832e398049d56cedf3d8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%223472489310076622412_20221028180623810%25202.jpg%22&x-id=GetObject);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
 }
 
 .intro__dark {
@@ -24,9 +33,10 @@ background-attachment: fixed;
   font-size: 2.8em;
   font-weight: bold;
   color: white;
-  text-shadow:0px 2px 0px #a09e9e;
+  text-shadow: 0px 2px 0px #a09e9e;
 }
 
+<<<<<<< HEAD
 @keyframes logo-hover {
   from { transform: translateY(0); }
   to { transform: translateY(10px); }
@@ -44,54 +54,156 @@ background-attachment: fixed;
 .message {
   position:absolute;
   top: 80%;
+=======
+.image {
+  /* border: 1px solid red; */
+}
+
+.img1 {
+  position: relative;
+  left: 10%;
+  width: 30vw;
+  height: 30vh;
+}
+
+.img2 {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.img3 {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.img4 {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.img5 {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.img6 {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.img7 {
+  position: fixed;
+  top: 10%;
+  left: 15%;
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.img8 {
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.img9 {
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.img10 {
+  position: fixed;
+  top: 10%;
   left: 30%;
-	box-shadow: 3px 3px 0px 0px #d6d6d6;
-	background-color:#e3b8a0;
-	border-radius:30px;
-	border:1px solid #e3b8a0;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	font-weight:bold;
-	padding:17px 23px;
-	text-decoration:none;
-	text-shadow:0px 2px 0px #bf9270;
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.message {
+  position: absolute;
+  top: 70%;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
+  left: 30%;
+  box-shadow: 3px 3px 0px 0px #d6d6d6;
+  background-color: #e3b8a0;
+  border-radius: 30px;
+  border: 1px solid #e3b8a0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 17px 23px;
+  text-decoration: none;
+  text-shadow: 0px 2px 0px #bf9270;
 }
 .message:hover {
-	background-color:#e3b8a0;
+  background-color: #e3b8a0;
 }
 .message:active {
+<<<<<<< HEAD
   position:absolute;
   top: 80%;
+=======
+  position: absolute;
+  top: 70%;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
   left: 30%;
 }
 
 .parade {
+<<<<<<< HEAD
   position:absolute;
   top: 80%;
+=======
+  position: absolute;
+  top: 70%;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
   left: 65%;
-	box-shadow: 3px 3px 0px 0px #d6d6d6;
-	background-color:#e3b8a0;
-	border-radius:30px;
-	border:1px solid #e3b8a0;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	font-weight:bold;
-	padding:17px 40px;
-	text-decoration:none;
-	text-shadow:0px 2px 0px #bf9270;
+  box-shadow: 3px 3px 0px 0px #d6d6d6;
+  background-color: #e3b8a0;
+  border-radius: 30px;
+  border: 1px solid #e3b8a0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 17px 40px;
+  text-decoration: none;
+  text-shadow: 0px 2px 0px #bf9270;
 }
 .parade:hover {
-	background-color:#e3b8a0;
+  background-color: #e3b8a0;
 }
 .parade:active {
+<<<<<<< HEAD
 	position:absolute;
   top: 80%;
+=======
+  position: absolute;
+  top: 70%;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
   left: 65%;
 }
-

@@ -4,7 +4,7 @@ import Cheer from "./pages/cheer/Cheer";
 import Map from "./pages/map/Map";
 import Message from "./pages/message/Message";
 import Parade from "./pages/parade/Parade";
-import Player_message from "./components/palyer_message/Player_message";
+import ParadeMessage from "./pages/parade_message/Parade_message";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/map" element={<Map />} />
         <Route path="/message" element={<Message />} />
         <Route path="/parade" element={<Parade />} />
-        <Route path="/parade/:paradeId" element={Player_message} />
+        <Route path="/parade/:paradeId" element={<ParadeMessage />} />
       </Routes>
     </BrowserRouter>
   );
