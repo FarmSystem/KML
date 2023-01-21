@@ -1,0 +1,56 @@
+.background_img{
+  height: 100vh;
+  width: 100vw;
+}
+
+.intro__dark {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.67);
+}
+
+.map_txt {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-code);
+  font-size: 2.8em;
+  font-weight: bold;
+  color: white;
+  text-shadow:0px 2px 0px #a09e9e;
+
+}
+
+.kkultip{
+  height: 100vh;
+  width: 100vw;
+}
+ 
+.club_nav-item {
+  margin-left: 5%;
+  text-decoration: none;
+  text-align: left;
+  list-style: "⛹️";
+  line-height: 2.2em;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-shadow:0px 2px 0px #a09e9e;
+} 
+
+.club_nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: white;
+  transition: all 350ms;
+}
+.club_nav-item:hover::after {
+  left: 0;
+  width: 100%;
+  height: 8px;
+}

@@ -1,13 +1,21 @@
 .background {
+<<<<<<< HEAD
+height: 100vh;
+width: 100vw;
+background-image: url(https://cdn.pixabay.com/photo/2014/09/09/12/46/basketball-440057_1280.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+=======
   height: 100vh;
   width: 100vw;
   background-image: url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fe161eb1-bc15-4472-9344-ee3045dfabe0/3472489310076622412_20221028180623810_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230115T121400Z&X-Amz-Expires=86400&X-Amz-Signature=51f3e34c2a222023992dba90d60493e878bd5274d4f7832e398049d56cedf3d8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%223472489310076622412_20221028180623810%25202.jpg%22&x-id=GetObject);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
 }
 
-/* 배경 이미지를 반투명 검정으로 가리기 */
 .intro__dark {
   position: absolute;
   height: 100vh;
@@ -28,6 +36,25 @@
   text-shadow: 0px 2px 0px #a09e9e;
 }
 
+<<<<<<< HEAD
+@keyframes logo-hover {
+  from { transform: translateY(0); }
+  to { transform: translateY(10px); }
+}
+
+.logos {
+  width: 53%;
+  animation-name: logo-hover;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.message {
+  position:absolute;
+  top: 80%;
+=======
 .image {
   /* border: 1px solid red; */
 }
@@ -114,6 +141,7 @@
 .message {
   position: absolute;
   top: 70%;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
   left: 30%;
   box-shadow: 3px 3px 0px 0px #d6d6d6;
   background-color: #e3b8a0;
@@ -133,14 +161,24 @@
   background-color: #e3b8a0;
 }
 .message:active {
+<<<<<<< HEAD
+  position:absolute;
+  top: 80%;
+=======
   position: absolute;
   top: 70%;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
   left: 30%;
 }
 
 .parade {
+<<<<<<< HEAD
+  position:absolute;
+  top: 80%;
+=======
   position: absolute;
   top: 70%;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
   left: 65%;
   box-shadow: 3px 3px 0px 0px #d6d6d6;
   background-color: #e3b8a0;
@@ -160,7 +198,12 @@
   background-color: #e3b8a0;
 }
 .parade:active {
+<<<<<<< HEAD
+	position:absolute;
+  top: 80%;
+=======
   position: absolute;
   top: 70%;
+>>>>>>> be9483e4a09639a78f22fe85360661ebc1931b8d
   left: 65%;
 }
