@@ -1,15 +1,126 @@
-img {
-  width: 100%;
-}
-
-.goToPage {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/*img {
+  width: 50%;
+}*/
 
 .link {
   text-decoration: none;
   cursor: pointer;
 }
+
+/*여기서부터 수정한 내용*/
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  }
+  
+  .topbox{
+    position : absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  .bg01{background-color: #f18e2e ;
+    float : left; z-index: 1;
+    width : 49.5%;
+    height : 100%; 
+  }
+
+  .bg02{background-color: #00ade7;
+    float : left; z-index: 1;
+    width : 49.5%;
+    height : 100%;
+    border-left: 2px solid white;
+  }
+
+  .textbox01{ z-index: 1;
+    margin-top: 13%;
+    margin-left: 10%;
+    font-size : 200px; line-height: 1.0;
+    font-family: 'Merriweather Sans', sans-serif;
+    /*text-align : center;*/
+    color : white;
+    opacity : 60%;
+  }
+
+  .textbox02{
+    margin-top:13%;
+    margin-right : 10%;
+    text-align: right;
+    font-size : 200px; line-height : 1.0;
+    font-family:'Merriweather Sans', sans-serif;
+    /*text-align : center;*/
+    color : black;
+    opacity : 60%
+  }
+
+  /*응원하기*/
+  .box01{ /*background-color : ;*/
+    z-index: 1;
+    border-radius: 25px;
+    border : 2px solid white; 
+    width : 200px;
+    height : 73px;
+    position : absolute;
+    margin-left: 18%;
+    margin-top: 2.1%;
+    
+    font-family: 'LINESeedKR-Bd', sans-serif ;
+    text-align: center;
+    font-size: 35px;
+    color : white;
+
+    letter-spacing: 3.5px;
+  }
+
+  .box02{ /*background-color : magenta;*/
+    z-index: 1;
+    border-radius: 25px;
+    border : 2px solid white; 
+    width : 200px;
+    height : 73px;
+    position : absolute;
+    margin-left: 18%;
+    margin-top: 2.1%;
+    
+    font-family: 'LINESeedKR-Bd', sans-serif ;
+    text-align: center;
+    font-size: 35px;
+    color : white;
+
+    letter-spacing: 3.5px;
+  }
+
+  .ball_mg{ z-index: 998;
+    position: absolute;
+    margin-top: 12%; margin-left: 32%;
+
+    animation-name : example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+  0%   {-ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(0deg); /* Standard syntax */}
+  100% {-ms-transform: rotate(1800deg); /* IE 9 */
+  transform: rotate(1800deg); /* Standard syntax */}
+}
+
+
+  .ths_mg{
+    position: absolute; z-index: 999;
+    margin-left: 25%; margin-top : -30%;
+    animation-name: udud;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+  }
+
+  @keyframes udud{
+  0%   {/*left : 0px;*/ top: -10px;}
+  50% {top : 200px;}
+  100% {top: -10px;}
+  }
