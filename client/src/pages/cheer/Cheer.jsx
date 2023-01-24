@@ -9,7 +9,7 @@ export default function Cheer() {
     <section className="background">
       <div className="intro__dark">
       <div className="intro">
-        Cheering for us!🙌
+        Cheering for us ! 🙌
       </div>
       <div className="image">
       <img src={logo_img} alt="로고이미지" className="logos"/>
