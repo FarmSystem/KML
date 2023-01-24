@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
-import basketball from "../home/basketball.png";
+import basketballimage from "../home/basketball.png";
 import ths from "../home/ths.png";
 
 export default function home() {
@@ -12,7 +12,7 @@ export default function home() {
       width="500px" style={{zIndex: 999}} />
     </div>
     <div className="ball_mg">
-      <img src={basketball}
+      <img src={basketballimage}
       width="500px" style={{zIndex: 999}} />
     </div>
     <div className="bg01">
