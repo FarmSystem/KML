@@ -1,7 +1,17 @@
+/* 폰트 */
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  }
+
 .background {
 height: 100vh;
 width: 100vw;
-background-image: url(https://cdn.pixabay.com/photo/2014/09/09/12/46/basketball-440057_1280.jpg);
+background-image:
+url(https://www.kbl.or.kr/imgs/kbl-greeting-img01.jpg);
+/* NBA 골든스테이트 이미지에서 KBL 구장 사진으로 변경 */
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
@@ -20,8 +30,8 @@ background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--font-code);
-  font-size: 2.8em;
+  font-family: 'Merriweather Sans', sans-serif; /* 폰트 통일 */
+  font-size: 3.5em;
   font-weight: bold;
   color: white;
   text-shadow: 0px 2px 0px #a09e9e;
@@ -52,7 +62,7 @@ background-attachment: fixed;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  font-family: Arial;
+  font-family: 'LINESeedKR-Bd', sans-serif;
   font-size: 17px;
   font-weight: bold;
   padding: 17px 23px;
@@ -79,7 +89,7 @@ background-attachment: fixed;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  font-family: Arial;
+  font-family: 'LINESeedKR-Bd', sans-serif;
   font-size: 17px;
   font-weight: bold;
   padding: 17px 40px;
