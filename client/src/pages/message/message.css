@@ -1,3 +1,17 @@
+.inner{
+  text-align: center;
+  margin-top : 2%;
+}
+
+.mybackground{
+  height: 127vh;
+  width: 99vw;
+  /* background-image: url(); */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
 @font-face {
   font-family: 'LINESeedKR-Bd';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
@@ -20,13 +34,138 @@
   font-size : 20px;
 }
 
-.textbox01 {background-color: blue;
+/*제목  - 팀 & 선수 선택*/
+.text__box{
+  border : none;
+  color : black;
+  
+  padding : 15px 33px;
+  text-align : center;
+  display : inline-block;
+
+  font-size: 4.2em;
+  font-family: 'LINESeedKR-Bd', sans-serif ;
+  margin : 4px 2px;
+}
+
+.text__box02{ 
+  margin-top : 70px;
+}
+
+/*팀 선택*/
+.teams{ background-color: magenta;
+  border : none;
+  color : white;
+  
+  padding : 15px 32px;
+  text-align : center;
+  display : inline-block;
+
   font-size: 16px;
+  font-family: 'LINESeedKR-Bd', sans-serif ;
+
+  margin : 4px 2px;
+}
+
+.team_sk{
+  background-color: red;
+  padding : 15px 33px;
+}
+.team_kgc{
+  background-color: darkred;
+}
+.team_kogas{
+  background-color: navy;
+}
+.team_db{
+  background-color: darkgreen;
+}
+.team_kt{
+  background-color: black;
+}
+.team_carrot{
+  background-color: darkorange;
+  padding : 15px 29px;
+}
+.team_kcc{
+  background-color: darkblue;
+  padding : 15px 32px;
+}
+.team_mobis{
+  background-color: #ff3333;
+  padding : 15px 39px;
+}
+.team_lg{
+  background-color: #cc0000;
+  padding : 15px 33px;
+}
+.team_samsung{
+  background-color: blue;
+  padding : 15px 30px;
+}
+
+
+/*선수 선택*/
+.players{ /*background-color: magenta;*/
+  border : 2px solid black;
+  color : black;
+  
+  padding : 15px 32px;
+  text-align : center;
+  display : inline-block;
+
+  font-size: 16px;
+  font-family: 'LINESeedKR-Bd', sans-serif ;
+  margin : 4px 2px;
+}
+
+.junhyeong{
+  padding : 15px 35px;
+}
+.daeheon{
+  padding : 15px 35px;
+}
+
+/*닉네임*/
+.yourname{
+  border : none;
+  color : black;
+  
+  padding : 15px 33px;
+  text-align : center;
+  display : inline-block;
+
+  font-size: 4.2em;
+  font-family: 'LINESeedKR-Bd', sans-serif ;
+  margin : 4px 2px;
+
+/*왼쪽으로 조금 더 정렬하려고*/
+  margin-left : -35px;
+}
+
+/*메시지*/
+.bbabbi{
+  margin-top: 70px;
+}
+.yourmessage{
+  border : none;
+  color : white;
+  
+  padding : 15px 32px;
+  text-align : center;
+  display : inline-block;
+
+  font-size: 32px;
+  font-family: 'LINESeedKR-Bd', sans-serif ;
+  margin : 4px 2px;
+}
+/*닉네임 입력창 & 메시지 입력창 폰트 지정 및 정렬*/
+.yourdeco{
+  text-align: center;
   font-family: 'LINESeedKR-Bd', sans-serif ;
 }
 
-.textbox02 {background-color: magenta;
-  font-size: 16px;
-  font-family: 'LINESeedKR-Bd', sans-serif ;
+/*제출버튼 위의 공백을 위한*/
+.bbabbi_plus{
+  margin-top: 35px;
 }
-

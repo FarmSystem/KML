@@ -15,14 +15,14 @@ export default function Cheer() {
       <img src={logo_img} alt="로고이미지" className="logos"/>
       </div>
       <div className="message">
-        <div style={{marginTop : '5%'}}>
+        <div style={{marginTop : '5%', marginLeft : '2%'}}>
           <Link className = "link" to = "/message">
           메시지 남기기
           </Link>
         </div>
       </div>
       <div className="parade">
-        <div style={{marginTop : '5%'}}>
+        <div style={{marginTop : '6%', marginLeft : '3%'}}>
           <Link className = "link" to = "/parade">
           퍼레이드
           </Link>
