@@ -10,6 +10,7 @@ router.post("/message", async (req, res) => {
       club: req.body.club,
       player: req.body.player,
     });
+    console.log("여기까진 ok");
     const savedMessage = await newMessage.save();
     res.status(200).json(savedMessage);
   } catch {

@@ -22,7 +22,10 @@ export default function Parade() {
   return (
     <>
       <div>
-      <section> <img src={parade_bg} alt="배경" className="background"/></section>
+        <section>
+          {" "}
+          <img src={parade_bg} alt="배경" className="background" />
+        </section>
         <Players players={players} />
       </div>
     </>
