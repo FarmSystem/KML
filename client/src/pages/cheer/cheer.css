@@ -56,6 +56,61 @@ background-attachment: fixed;
   animation-direction: alternate;
 }
 
+<<<<<<< HEAD
+.message {
+  position:absolute;
+  top: 80%;
+  left: 30%;
+  box-shadow: 3px 3px 0px 0px #d6d6d6;
+  background-color: #e3b8a0;
+  border-radius: 30px;
+  border: 1px solid #e3b8a0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 17px 23px;
+  text-decoration: none;
+  text-shadow: 0px 2px 0px #bf9270;
+}
+.message:hover {
+  background-color: #e3b8a0;
+}
+.message:active {
+  position:absolute;
+  top: 80%;
+  left: 30%;
+}
+
+.parade {
+  position:absolute;
+  top: 80%;
+  left: 65%;
+  box-shadow: 3px 3px 0px 0px #d6d6d6;
+  background-color: #e3b8a0;
+  border-radius: 30px;
+  border: 1px solid #e3b8a0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 17px 40px;
+  text-decoration: none;
+  text-shadow: 0px 2px 0px #bf9270;
+}
+.parade:hover {
+  background-color: #e3b8a0;
+}
+.parade:active {
+	position:absolute;
+  top: 80%;
+  left: 65%;
+}
+=======
 .message{background-color: white;
   z-index: 1;
   border-radius: 25px;
@@ -91,3 +146,4 @@ background-attachment: fixed;
 
   letter-spacing: 3.5px;
 }
+>>>>>>> 0995beccc2bf13ee86dfc4b89c93e71a1db7168c
