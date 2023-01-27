@@ -9,25 +9,20 @@ export default function Cheer() {
     <section className="background">
       <div className="intro__dark">
       <div className="intro">
-        CHEERING FOR US !
+        CHEERING &nbsp;FOR &nbsp;US !
       </div>
       <div className="image">
       <img src={logo_img} alt="로고이미지" className="logos"/>
       </div>
-      <div className="message">
-        <div style={{marginTop : '5%', marginLeft : '2%'}}>
-          <Link className = "link" to = "/message">
-          메시지 남기기
-          </Link>
-        </div>
-      </div>
-      <div className="parade">
-        <div style={{marginTop : '6%', marginLeft : '3%'}}>
-          <Link className = "link" to = "/parade">
-          퍼레이드
-          </Link>
-        </div>
-      </div>
+
+      <button className="message">
+        <Link to="/message">메시지 남기기</Link>
+      </button>
+      
+      <button className="parade">
+        <Link to="/parade">퍼레이드</Link>
+      </button>
+
       </div>
       
     </section>

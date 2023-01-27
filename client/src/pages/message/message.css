@@ -3,22 +3,23 @@
   margin-top : 2%;
 }
 
-/* .mybackground{
-  height: 127vh;
-  width: 99vw;
-  background-image: url();
+.intro__bright {
+  position: absolute;
+  height: 140vh;
+  width: 100vw;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.67);
+}
+
+.background {
+  height: 140vh;
+  width: 100vw;
+  background-image:
+  url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/10a7ff55-ca27-4f33-be5f-418667c5ef04/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T220246Z&X-Amz-Expires=86400&X-Amz-Signature=dddd9e0f4c9ddb8e204e27d01ef246123f2b3c68635242bdf3b3a8eea59d2b53&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  } */
-
-.mybackground{
-  height: 127vh;
-  width: 99vw;
-  background-color: none;
-  background-color: #00ade7;
-  /* background-color: #f18e2e; */
-}
+  }
 
 @font-face {
   font-family: 'LINESeedKR-Bd';
@@ -45,7 +46,7 @@
 /*제목  - 팀 & 선수 선택*/
 .text__box{
   border : none;
-  color : white;
+  color : black;
   
   padding : 15px 33px;
   text-align : center;
