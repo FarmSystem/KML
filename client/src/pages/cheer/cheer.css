@@ -10,15 +10,16 @@
     format("woff2");
   font-weight: 700;
   font-style: normal;
-}
+  }
 
 /* .background {
-  height: 100vh;
-  width: 100vw;
-  background-image: url(https://www.kbl.or.kr/imgs/kbl-greeting-img01.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+height: 100vh;
+width: 100vw;
+background-image:
+url(https://www.kbl.or.kr/imgs/kbl-greeting-img01.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
 } */
 
 .intro__dark {
@@ -116,4 +117,9 @@
 }
 .parade:hover {
   background-color: #e3b8a0;
+}
+.parade:active {
+	position:absolute;
+  top: 80%;
+  left: 65%;
 }
