@@ -1,0 +1,13 @@
+.player {
+  position: relative;
+  display: flex;
+}
+
+.bg2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: raw;
+  justify-content: space-around;
+  padding: 200;
+  justify-content: space-around;
+}
