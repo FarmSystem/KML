@@ -12,16 +12,6 @@
   font-style: normal;
   }
 
-/* .background {
-height: 100vh;
-width: 100vw;
-background-image:
-url(https://www.kbl.or.kr/imgs/kbl-greeting-img01.jpg);
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-} */
-
 .intro__dark {
   position: absolute;
   height: 100vh;
@@ -46,7 +36,7 @@ background-attachment: fixed;
   justify-content: center;
   align-items: center;
   font-family: "Merriweather Sans", sans-serif; /* 폰트 통일 */
-  font-size: 5.0em;
+  font-size: 7.0em;
   font-weight: bold;
   color: white;
   /* text-shadow: 0px 2px 0px #a09e9e; */
@@ -70,56 +60,32 @@ background-attachment: fixed;
   animation-direction: alternate;
 }
 
-.message {
-  position: absolute;
-  top: 80%;
-  left: 30%;
-  box-shadow: 3px 3px 0px 0px #d6d6d6;
-  background-color: #e3b8a0;
-  border-radius: 30px;
-  border: 1px solid #e3b8a0;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 17px 23px;
+.message { background-color: white;
+  border : none; /* 없애는 건 none*/
+  color : black;
+  padding: 15px 32px; /* 위 15 오른쪽 32 */
+  text-align: center;
   text-decoration: none;
-  text-shadow: 0px 2px 0px #bf9270;
-}
-.message:hover {
-  background-color: #e3b8a0;
-}
-.message:active {
-  position: absolute;
-  top: 80%;
-  left: 30%;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  font-family: 'LINESeedKR-Bd', sans-serif;
+  font-size : 20px;
 }
 
-.parade {
-  position: absolute;
-  top: 80%;
-  left: 65%;
-  box-shadow: 3px 3px 0px 0px #d6d6d6;
-  background-color: #e3b8a0;
-  border-radius: 30px;
-  border: 1px solid #e3b8a0;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 17px 40px;
+.parade { background-color: white;
+  border : none; /* 없애는 건 none*/
+  color : black;
+  padding: 15px 32px; /* 위 15 오른쪽 32 */
+  text-align: center;
   text-decoration: none;
-  text-shadow: 0px 2px 0px #bf9270;
-}
-.parade:hover {
-  background-color: #e3b8a0;
-}
-.parade:active {
-	position:absolute;
-  top: 80%;
-  left: 65%;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  font-family: 'LINESeedKR-Bd', sans-serif;
+  font-size : 20px;
 }
