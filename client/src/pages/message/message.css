@@ -3,14 +3,21 @@
   margin-top : 2%;
 }
 
-.mybackground{
+/* .mybackground{
   height: 127vh;
   width: 99vw;
-  /* background-image: url(); */
+  background-image: url();
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  }
+  } */
+
+.mybackground{
+  height: 127vh;
+  width: 99vw;
+  background-color: none;
+  /* background-color: #f18e2e; */
+}
 
 @font-face {
   font-family: 'LINESeedKR-Bd';
@@ -106,7 +113,7 @@
 
 
 /*선수 선택*/
-.players{ /*background-color: magenta;*/
+.players{ background-color: white;
   border : 2px solid black;
   color : black;
   
@@ -149,7 +156,7 @@
 }
 .yourmessage{
   border : none;
-  color : white;
+  color : black;
   
   padding : 15px 32px;
   text-align : center;
