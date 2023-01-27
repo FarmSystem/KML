@@ -36,37 +36,46 @@ export default function map() {
   return (
 <section className="map_intro">
 <div className="intro__dark">
-<div className="map_txt">각 구단의 직관 꿀팁을 알아보세요!</div>
+<div className="map_txt">WHO IS THE BEST FIVE?</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <nav class="club_nav">
     <ul>
-      <li class="club_nav-item">
+      <li class="clubs club_db">
         <a href="#dbpromy">원주 DB 프로미</a>
       </li>
-      <li class="club_nav-item">
+      <li class="clubs club_samsung">
         <a href="#thunders">서울 삼성 썬더스</a>
       </li>
-      <li class="club_nav-item">
+      <li class="clubs club_sk">
         <a href="#knights">서울 SK 나이츠</a>
       </li>
-      <li class="club_nav-item">
+      <li class="clubs club_lg">
         <a href="#sakers">창원 LG 세이커스</a>
       </li>
-      <li class="club_nav-item">
+      <li class="clubs club_carrot">
         <a href="#carrot">고양 캐롯 점퍼스</a>
       </li>
-      <li class="club_nav-item">
+      <br />
+      <br />
+      <li class="clubs club_kcc">
         <a href="#kcc">전주 KCC 이지스</a>
       </li>
-      <li class="club_nav-item">
+      <li class="clubs club_kgc">
         <a href="#kgc">안양 KGC 인삼공사</a>
       </li>
-      <li class="club_nav-item">
+      <li class="clubs club_kt">
         <a href="#sonic">수원 KT 소닉붐</a>
       </li>
-      <li class="club_nav-item">
+      <li class="clubs club_kogas">
         <a href="#kogas">대구 한국가스공사 페가수스</a>
       </li>
-      <li class="club_nav-item">
+      <li class="clubs club_mobis">
         <a href="#phoebus">울산 현대모비스 피버스</a>
       </li>
     </ul>
