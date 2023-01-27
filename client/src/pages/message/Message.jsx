@@ -24,7 +24,7 @@ export default function Message() {
   };
 
   return (
-    <section className="mybackground">
+    <div className="mybackground">
       <div>
         <div className="inner">
           <div className="text__box01 text__box">
@@ -233,6 +233,6 @@ export default function Message() {
           </form>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

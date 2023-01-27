@@ -10,17 +10,17 @@
     format("woff2");
   font-weight: 700;
   font-style: normal;
-}
+  }
 
-.background {
-  height: 100vh;
-  width: 100vw;
-  background-image: url(https://www.kbl.or.kr/imgs/kbl-greeting-img01.jpg);
-  /* NBA 골든스테이트 이미지에서 KBL 구장 사진으로 변경 */
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
+/* .background {
+height: 100vh;
+width: 100vw;
+background-image:
+url(https://www.kbl.or.kr/imgs/kbl-greeting-img01.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+} */
 
 .intro__dark {
   position: absolute;
@@ -30,13 +30,23 @@
   background-color: rgba(0, 0, 0, 0.67);
 }
 
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-image:
+  url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/10a7ff55-ca27-4f33-be5f-418667c5ef04/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T220246Z&X-Amz-Expires=86400&X-Amz-Signature=dddd9e0f4c9ddb8e204e27d01ef246123f2b3c68635242bdf3b3a8eea59d2b53&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
 .intro {
   margin-top: 7.5%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Merriweather Sans", sans-serif; /* 폰트 통일 */
-  font-size: 5em;
+  font-size: 5.0em;
   font-weight: bold;
   color: white;
   /* text-shadow: 0px 2px 0px #a09e9e; */
@@ -108,56 +118,8 @@
 .parade:hover {
   background-color: #e3b8a0;
 }
-.message {
-  position: absolute;
-  top: 80%;
-  left: 30%;
-  box-shadow: 3px 3px 0px 0px #d6d6d6;
-  background-color: #e3b8a0;
-  border-radius: 30px;
-  border: 1px solid #e3b8a0;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 17px 23px;
-  text-decoration: none;
-  text-shadow: 0px 2px 0px #bf9270;
-}
-.message:hover {
-  background-color: #e3b8a0;
-}
-.message:active {
-  position: absolute;
-  top: 80%;
-  left: 30%;
-}
-
-.parade {
-  position: absolute;
-  top: 80%;
-  left: 65%;
-  box-shadow: 3px 3px 0px 0px #d6d6d6;
-  background-color: #e3b8a0;
-  border-radius: 30px;
-  border: 1px solid #e3b8a0;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 17px 40px;
-  text-decoration: none;
-  text-shadow: 0px 2px 0px #bf9270;
-}
-.parade:hover {
-  background-color: #e3b8a0;
-}
 .parade:active {
-  position: absolute;
+	position:absolute;
   top: 80%;
   left: 65%;
 }
