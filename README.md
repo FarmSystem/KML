@@ -16,3 +16,8 @@
 
 ## 2. 프로젝트 요약 이미지
 <img src="https://user-images.githubusercontent.com/92314556/215334685-0fa1b44d-73d2-4fbf-8038-403727d016d2.png" width=30%/><img src="https://user-images.githubusercontent.com/92314556/215334930-61103f5d-70af-4977-a7c9-34344fb13d1e.png" width=35%/>
+
+## 3. 기능 
+📍 응원메시지 작성 페이지
+📍 퍼레이드 페이지
+📍 구단 정보 페이지
