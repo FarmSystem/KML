@@ -6,7 +6,7 @@
 |이름|학과|역할|
 |----|---|---|
 |[문채영](https://github.com/bbabbi)|컴퓨터공학|팀장,Frontend|
-|[이가은](https://github.com/gaeun5744)|산업시스템공학|Backend|
+|[이가은](https://github.com/gaeun5744)|산업시스템공학|Frontend & Backend|
 |[김수현](https://github.com/gitsuhyun)|컴퓨터공학|Frontend|
 
 <br<
